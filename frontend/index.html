@@ -1,0 +1,27 @@
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<header>
+    <title>Test page</title>
+</header>
+<body>
+    <div>This is simple test to get data from a backend</div>
+    <div><span>Last update: </span><span id="time-container"></span></div>
+    <div>
+        <label for="user_name">player 1:</label>
+        <input type="text" id="user_name">
+        <label for="vs">player 2:</label>
+        <input type="text" id="vs">
+        <button onclick="sendData()"> log my data</button>
+    </div>
+    <div id="graph"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <div>
+        <canvas id="myChart" width="800" height="400"></canvas>
+    </div>
+      
+</body>
+<script src="scripts/script10.js"></script>
+
+</html>
