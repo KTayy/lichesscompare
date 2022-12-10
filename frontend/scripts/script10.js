@@ -102,31 +102,7 @@ async function sendData() {
         transition: {duration: 50},
 
         steps: steps
-      //   [{
-      //     label: '1',
-      //     method: 'animate',
-      //     args: [['1'], {
-      //       mode: 'immediate',
-      //       frame: {redraw: false, duration: 500},
-      //       transition: {duration: 500}
-      //     }]
-      //   }, {
-      //     label: '2',
-      //     method: 'animate',
-      //     args: [['2'], {
-      //       mode: 'immediate',
-      //       frame: {redraw: false, duration: 500},
-      //       transition: {duration: 500}
-      //     }]
-      //   }, {
-      //     label: '3',
-      //     method: 'animate',
-      //     args: [['3'], {
-      //       mode: 'immediate',
-      //       frame: {redraw: false, duration: 500},
-      //       transition: {duration: 500}
-      //     }]
-      //   }]
+    
     }],
 
       updatemenus: [{
@@ -159,38 +135,7 @@ async function sendData() {
     // The slider itself does not contain any notion of timing, so animating a slider must be accomplished through a sequence of frames.
 
     frames: frames
-    // [{
-    //   name: '1',
-    //   data: [{
-    //     y: response.user_dist[1][1],
-    //     x: response.user_dist[1][0],
-    //     'line.color': 'red'
-    //   },{
-    //     y: response.vs_dist[1][1],
-    //     x: response.vs_dist[1][0],
-    //     'line.color': 'blue'
-    //   }]
-    // }, {
-    //   name: '2',
-    //   data: [{
-    //     y: response.user_dist[2][1],
-    //     x: response.user_dist[2][0],
-    //     'line.color': 'red'},{
-    //       y: response.vs_dist[2][1],
-    //       x: response.vs_dist[2][0],
-    //       'line.color': 'blue'
-    //     }]
-    // }, {
-    //   name: '3',
-    //   data: [{
-    //     y: response.user_dist[3][1],
-    //     x: response.user_dist[3][0],
-    //     'line.color': 'red'},{
-    //       y: response.vs_dist[3][1],
-    //       x: response.vs_dist[3][0],
-    //       'line.color': 'blue'
-    //     }]
-    // }]
+   
    }, {showSendToCloud: true});
 
   };
